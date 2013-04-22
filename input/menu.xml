@@ -1,0 +1,106 @@
+<menugroup>
+	<inputsize w="1200" h="1600" />
+
+	<menu name="mainmenu">
+		<init>
+			<drawpic mutex="all">
+				<texture x="0" y="0" size_x="1200" size_y="1600" />
+				<target x="0" y="0" fullupdate="clear" />
+			</drawpic>
+
+			<drawpic mutex="all">
+				<texture image="mainmenu.png" x="0" y="0" size_x="1200" size_y="1600" />
+				<target x="0" y="0" fullupdate="yes" />
+			</drawpic>
+		</init>
+
+		<default_item name="0" />
+
+		<items>
+			<item name="0">
+				<activation>
+					<drawpic mutex="0">
+						<texture image="mainmenu_sel.png" x="6" y="1155" size_x="368" size_y="426" />
+						<target x="6" y="1155" />
+					</drawpic>
+				</activation>
+
+				<deactivation>
+					<drawpic mutex="0">
+						<texture image="mainmenu.png" x="6" y="1155" size_x="368" size_y="426" />
+						<target x="6" y="1155" />
+					</drawpic>
+				</deactivation>
+
+				<key id="left">
+					<selectitem name="2" />
+				</key>
+
+				<key id="right">
+					<selectitem name="1" />
+				</key>
+
+				<key id="home">
+					<loadmenu name="school" />
+				</key>
+			</item>
+
+			<item name="1">
+				<activation>
+					<drawpic mutex="1">
+						<texture image="mainmenu_sel.png" x="374" y="1151" size_x="376" size_y="438" />
+						<target x="374" y="1151" />
+					</drawpic>
+				</activation>
+
+				<deactivation>
+					<drawpic mutex="1">
+						<texture image="mainmenu.png" x="374" y="1151" size_x="376" size_y="438" />
+						<target x="374" y="1151" />
+					</drawpic>
+				</deactivation>
+
+				<key id="left">
+					<selectitem name="0" />
+				</key>
+
+				<key id="right">
+					<selectitem name="2" />
+				</key>
+
+				<key id="home">
+					<loadmenu name="comic" />
+				</key>
+			</item>
+
+			<item name="2">
+				<activation>
+					<drawpic mutex="2">
+						<texture image="mainmenu_sel.png" x="750" y="1156" size_x="446" size_y="434" />
+						<target x="750" y="1156" />
+					</drawpic>
+				</activation>
+
+				<deactivation>
+					<drawpic mutex="2">
+						<texture image="mainmenu.png" x="750" y="1156" size_x="446" size_y="434" />
+						<target x="750" y="1156" />
+					</drawpic>
+				</deactivation>
+
+				<key id="left">
+					<selectitem name="1" />
+				</key>
+				<key id="right">
+					<selectitem name="0" />
+				</key>
+
+				<key id="home">
+					<loadmenu name="magazine" />
+				</key>
+			</item>
+		</items>
+	</menu>
+
+</menugroup>
+

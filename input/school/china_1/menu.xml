@@ -1,0 +1,133 @@
+<menugroup>
+<inputsize w="825" h="1200" />
+<menu name="mag1">
+<init>
+<drawpic mutex="all">
+<texture y="0" x="0" size_x="825" size_y="1200" />
+<target y="0" x="0" fullupdate="clear" />
+</drawpic>
+</init>
+<default_item name="1" />
+<items>
+<item name="1">
+<activation>
+<drawpic mutex="all">
+<texture image="chinese01.jpg" y="0" x="0" size_x="825" size_y="1200" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="7" />
+</key>
+<key id="right">
+<selectitem name="2" />
+</key>
+<key id="home">
+<loadmenu name=".." />
+</key>
+</item>
+<item name="2">
+<activation>
+<drawpic mutex="all">
+<texture image="chinese02.jpg" y="0" x="0" size_x="825" size_y="1200" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="1" />
+</key>
+<key id="right">
+<selectitem name="3" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="3">
+<activation>
+<drawpic mutex="all">
+<texture image="chinese03.jpg" y="0" x="0" size_x="825" size_y="1200" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="2" />
+</key>
+<key id="right">
+<selectitem name="4" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="4">
+<activation>
+<drawpic mutex="all">
+<texture image="chinese04.jpg" y="0" x="0" size_x="825" size_y="1200" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="3" />
+</key>
+<key id="right">
+<selectitem name="5" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="5">
+<activation>
+<drawpic mutex="all">
+<texture image="chinese05.jpg" y="0" x="0" size_x="825" size_y="1200" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="4" />
+</key>
+<key id="right">
+<selectitem name="6" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="6">
+<activation>
+<drawpic mutex="all">
+<texture image="english01.jpg" y="0" x="0" size_x="825" size_y="1200" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="5" />
+</key>
+<key id="right">
+<selectitem name="7" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="7">
+<activation>
+<drawpic mutex="all">
+<texture image="english02.jpg" y="0" x="0" size_x="825" size_y="1200" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="6" />
+</key>
+<key id="right">
+<selectitem name="1" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+</items>
+</menu>
+</menugroup>

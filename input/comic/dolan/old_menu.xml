@@ -1,0 +1,78 @@
+<menugroup>
+<!-- MAGAZINE 1 -->
+
+	<menu name="mag1">
+		<init>
+			<drawpic mutex="all">
+				<texture y="0" x="0" size_y="1200" size_x="825" />
+				<target y="0" x="0" fullupdate="clear" />
+			</drawpic>
+		</init>
+
+		<items>
+			<item name="0">
+				<activation>
+					<drawpic mutex="all">
+						<texture image="0001.png" y="0" x="0" size_y="1200" size_x="825" />
+						<target y="0" x="0" fullupdate="yes" />
+					</drawpic>
+				</activation> 
+
+				<key id="left">
+					<selectitem name="2" />
+				</key>
+
+				<key id="right">
+					<selectitem name="1" />
+				</key>
+
+				<key id="home">
+					<loadmenu name=".." />
+				</key>
+			</item>
+
+			<item name="1">
+				<activation>
+					<drawpic mutex="all">
+						<texture image="0002.png" y="0" x="0" size_y="1200" size_x="825" />
+						<target y="0" x="0" fullupdate="yes" />
+					</drawpic>
+				</activation> 
+
+				<key id="left">
+					<selectitem name="0" />
+				</key>
+
+				<key id="right">
+					<selectitem name="2" />
+				</key>
+
+				<key id="home">
+					<selectitem name="0" />
+				</key>
+			</item>
+
+			<item name="2">
+				<activation>
+					<drawpic mutex="all">
+						<texture image="0003.png" y="0" x="0" size_y="1200" size_x="825" />
+						<target y="0" x="0" fullupdate="yes" />
+					</drawpic>
+				</activation> 
+
+				<key id="left">
+					<selectitem name="1" />
+				</key>
+
+				<key id="right">
+					<selectitem name="0" />
+				</key>
+
+				<key id="home">
+					<selectitem name="0" />
+				</key>
+			</item>
+
+		</items>
+	</menu>
+</menugroup>

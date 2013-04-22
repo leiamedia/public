@@ -1,0 +1,558 @@
+<menugroup>
+<inputsize w="825" h="1200" />
+<menu name="mag1">
+<init>
+<drawpic mutex="all">
+<texture y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="clear" />
+</drawpic>
+</init>
+<default_item name="1" />
+<items>
+<item name="1">
+<activation>
+<drawpic mutex="all">
+<texture image="0001.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="32" />
+</key>
+<key id="right">
+<selectitem name="2" />
+</key>
+<key id="home">
+<loadmenu name=".." />
+</key>
+</item>
+<item name="2">
+<activation>
+<drawpic mutex="all">
+<texture image="0002.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="1" />
+</key>
+<key id="right">
+<selectitem name="3" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="3">
+<activation>
+<drawpic mutex="all">
+<texture image="0003.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="2" />
+</key>
+<key id="right">
+<selectitem name="4" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="4">
+<activation>
+<drawpic mutex="all">
+<texture image="0004.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="3" />
+</key>
+<key id="right">
+<selectitem name="5" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="5">
+<activation>
+<drawpic mutex="all">
+<texture image="0005.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="4" />
+</key>
+<key id="right">
+<selectitem name="6" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="6">
+<activation>
+<drawpic mutex="all">
+<texture image="0006.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="5" />
+</key>
+<key id="right">
+<selectitem name="7" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="7">
+<activation>
+<drawpic mutex="all">
+<texture image="0007.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="6" />
+</key>
+<key id="right">
+<selectitem name="8" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="8">
+<activation>
+<drawpic mutex="all">
+<texture image="0008.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="7" />
+</key>
+<key id="right">
+<selectitem name="9" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="9">
+<activation>
+<drawpic mutex="all">
+<texture image="0009.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="8" />
+</key>
+<key id="right">
+<selectitem name="10" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="10">
+<activation>
+<drawpic mutex="all">
+<texture image="0010.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="9" />
+</key>
+<key id="right">
+<selectitem name="11" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="11">
+<activation>
+<drawpic mutex="all">
+<texture image="0011.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="10" />
+</key>
+<key id="right">
+<selectitem name="12" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="12">
+<activation>
+<drawpic mutex="all">
+<texture image="0012.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="11" />
+</key>
+<key id="right">
+<selectitem name="13" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="13">
+<activation>
+<drawpic mutex="all">
+<texture image="0013.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="12" />
+</key>
+<key id="right">
+<selectitem name="14" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="14">
+<activation>
+<drawpic mutex="all">
+<texture image="0014.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="13" />
+</key>
+<key id="right">
+<selectitem name="15" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="15">
+<activation>
+<drawpic mutex="all">
+<texture image="0015.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="14" />
+</key>
+<key id="right">
+<selectitem name="16" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="16">
+<activation>
+<drawpic mutex="all">
+<texture image="0016.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="15" />
+</key>
+<key id="right">
+<selectitem name="17" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="17">
+<activation>
+<drawpic mutex="all">
+<texture image="0017.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="16" />
+</key>
+<key id="right">
+<selectitem name="18" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="18">
+<activation>
+<drawpic mutex="all">
+<texture image="0018.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="17" />
+</key>
+<key id="right">
+<selectitem name="19" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="19">
+<activation>
+<drawpic mutex="all">
+<texture image="0019.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="18" />
+</key>
+<key id="right">
+<selectitem name="20" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="20">
+<activation>
+<drawpic mutex="all">
+<texture image="0020.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="19" />
+</key>
+<key id="right">
+<selectitem name="21" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="21">
+<activation>
+<drawpic mutex="all">
+<texture image="0021.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="20" />
+</key>
+<key id="right">
+<selectitem name="22" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="22">
+<activation>
+<drawpic mutex="all">
+<texture image="0022.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="21" />
+</key>
+<key id="right">
+<selectitem name="23" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="23">
+<activation>
+<drawpic mutex="all">
+<texture image="0023.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="22" />
+</key>
+<key id="right">
+<selectitem name="24" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="24">
+<activation>
+<drawpic mutex="all">
+<texture image="0024.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="23" />
+</key>
+<key id="right">
+<selectitem name="25" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="25">
+<activation>
+<drawpic mutex="all">
+<texture image="0025.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="24" />
+</key>
+<key id="right">
+<selectitem name="26" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="26">
+<activation>
+<drawpic mutex="all">
+<texture image="0026.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="25" />
+</key>
+<key id="right">
+<selectitem name="27" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="27">
+<activation>
+<drawpic mutex="all">
+<texture image="0027.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="26" />
+</key>
+<key id="right">
+<selectitem name="28" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="28">
+<activation>
+<drawpic mutex="all">
+<texture image="0028.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="27" />
+</key>
+<key id="right">
+<selectitem name="29" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="29">
+<activation>
+<drawpic mutex="all">
+<texture image="0029.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="28" />
+</key>
+<key id="right">
+<selectitem name="30" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="30">
+<activation>
+<drawpic mutex="all">
+<texture image="0030.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="29" />
+</key>
+<key id="right">
+<selectitem name="31" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="31">
+<activation>
+<drawpic mutex="all">
+<texture image="0031.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="30" />
+</key>
+<key id="right">
+<selectitem name="32" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+<item name="32">
+<activation>
+<drawpic mutex="all">
+<texture image="0032.bmp" y="0" x="0" size_y="1200" size_x="825" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</activation>
+<key id="left">
+<selectitem name="31" />
+</key>
+<key id="right">
+<selectitem name="1" />
+</key>
+<key id="home">
+<selectitem name="1" />
+</key>
+</item>
+</items>
+</menu>
+</menugroup>

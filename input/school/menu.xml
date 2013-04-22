@@ -1,0 +1,161 @@
+<menugroup>
+<inputsize w="1200" h="1600" />
+<menu name="genmenu">
+<init>
+<drawpic mutex="all">
+<texture image="menubase.png" y="0" x="0" size_x="1200" size_y="1600" />
+<target y="0" x="0" fullupdate="yes" />
+</drawpic>
+</init>
+<default_item name="1" />
+<items>
+<item name="1">
+<activation>
+<drawpic mutex="1">
+<texture image="menubase_sel.png" x="0" y="300" size_x="500" size_y="85" />
+<target x="0" y="300" fullupdate="yes" />
+</drawpic>
+<drawpic mutex="0">
+<texture image="menugen_name1-prev.png" x="0" y="0" size_x="504" size_y="670" />
+<target x="650" y="300" fullupdate="yes" />
+</drawpic>
+</activation>
+<deactivation>
+<drawpic mutex="1">
+<texture image="menubase.png" x="0" y="300" size_x="500" size_y="85" />
+<target x="0" y="300" fullupdate="yes" />
+</drawpic>
+</deactivation>
+<key id="left"><selectitem name="7" /></key>
+<key id="right"><selectitem name="2" /></key>
+<key id="home"><loadmenu name="./china_1" /></key>
+</item>
+<item name="2">
+<activation>
+<drawpic mutex="2">
+<texture image="menubase_sel.png" x="0" y="400" size_x="500" size_y="85" />
+<target x="0" y="400" fullupdate="yes" />
+</drawpic>
+<drawpic mutex="0">
+<texture image="menugen_name2-prev.png" x="0" y="0" size_x="504" size_y="670" />
+<target x="650" y="300" fullupdate="yes" />
+</drawpic>
+</activation>
+<deactivation>
+<drawpic mutex="2">
+<texture image="menubase.png" x="0" y="400" size_x="500" size_y="85" />
+<target x="0" y="400" fullupdate="yes" />
+</drawpic>
+</deactivation>
+<key id="left"><selectitem name="1" /></key>
+<key id="right"><selectitem name="3" /></key>
+<key id="home"><loadmenu name="./china_2" /></key>
+</item>
+<item name="3">
+<activation>
+<drawpic mutex="3">
+<texture image="menubase_sel.png" x="0" y="500" size_x="500" size_y="85" />
+<target x="0" y="500" fullupdate="yes" />
+</drawpic>
+<drawpic mutex="0">
+<texture image="menugen_name3-prev.png" x="0" y="0" size_x="504" size_y="670" />
+<target x="650" y="300" fullupdate="yes" />
+</drawpic>
+</activation>
+<deactivation>
+<drawpic mutex="3">
+<texture image="menubase.png" x="0" y="500" size_x="500" size_y="85" />
+<target x="0" y="500" fullupdate="yes" />
+</drawpic>
+</deactivation>
+<key id="left"><selectitem name="2" /></key>
+<key id="right"><selectitem name="4" /></key>
+<key id="home"><loadmenu name="./linkki4" /></key>
+</item>
+<item name="4">
+<activation>
+<drawpic mutex="4">
+<texture image="menubase_sel.png" x="0" y="600" size_x="500" size_y="85" />
+<target x="0" y="600" fullupdate="yes" />
+</drawpic>
+<drawpic mutex="0">
+<texture image="menugen_name4-prev.png" x="0" y="0" size_x="504" size_y="670" />
+<target x="650" y="300" fullupdate="yes" />
+</drawpic>
+</activation>
+<deactivation>
+<drawpic mutex="4">
+<texture image="menubase.png" x="0" y="600" size_x="500" size_y="85" />
+<target x="0" y="600" fullupdate="yes" />
+</drawpic>
+</deactivation>
+<key id="left"><selectitem name="3" /></key>
+<key id="right"><selectitem name="5" /></key>
+<key id="home"><loadmenu name="./math1" /></key>
+</item>
+<item name="5">
+<activation>
+<drawpic mutex="5">
+<texture image="menubase_sel.png" x="0" y="700" size_x="500" size_y="85" />
+<target x="0" y="700" fullupdate="yes" />
+</drawpic>
+<drawpic mutex="0">
+<texture image="menugen_name5-prev.png" x="0" y="0" size_x="504" size_y="670" />
+<target x="650" y="300" fullupdate="yes" />
+</drawpic>
+</activation>
+<deactivation>
+<drawpic mutex="5">
+<texture image="menubase.png" x="0" y="700" size_x="500" size_y="85" />
+<target x="0" y="700" fullupdate="yes" />
+</drawpic>
+</deactivation>
+<key id="left"><selectitem name="4" /></key>
+<key id="right"><selectitem name="6" /></key>
+<key id="home"><loadmenu name="./math8" /></key>
+</item>
+<item name="6">
+<activation>
+<drawpic mutex="6">
+<texture image="menubase_sel.png" x="0" y="800" size_x="500" size_y="85" />
+<target x="0" y="800" fullupdate="yes" />
+</drawpic>
+<drawpic mutex="0">
+<texture image="menugen_name6-prev.png" x="0" y="0" size_x="504" size_y="670" />
+<target x="650" y="300" fullupdate="yes" />
+</drawpic>
+</activation>
+<deactivation>
+<drawpic mutex="6">
+<texture image="menubase.png" x="0" y="800" size_x="500" size_y="85" />
+<target x="0" y="800" fullupdate="yes" />
+</drawpic>
+</deactivation>
+<key id="left"><selectitem name="5" /></key>
+<key id="right"><selectitem name="7" /></key>
+<key id="home"><loadmenu name="./pd" /></key>
+</item>
+<item name="7">
+<activation>
+<drawpic mutex="7">
+<texture image="menubase_sel.png" x="0" y="900" size_x="500" size_y="85" />
+<target x="0" y="900" fullupdate="yes" />
+</drawpic>
+<drawpic mutex="0">
+<texture image="menugen_name7-prev.png" x="0" y="0" size_x="504" size_y="670" />
+<target x="650" y="300" fullupdate="yes" />
+</drawpic>
+</activation>
+<deactivation>
+<drawpic mutex="7">
+<texture image="menubase.png" x="0" y="900" size_x="500" size_y="85" />
+<target x="0" y="900" fullupdate="yes" />
+</drawpic>
+</deactivation>
+<key id="left"><selectitem name="6" /></key>
+<key id="right"><selectitem name="1" /></key>
+<key id="home"><loadmenu name=".." /></key>
+</item>
+</items>
+</menu>
+</menugroup>
